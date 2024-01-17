@@ -1,0 +1,537 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+:root{
+    --background-color1: white;
+    --background-color2: rgba(253, 244, 160, 0.761);
+    --box1: rgb(165, 204, 170);
+    --box2: lightyellow;
+    --background-color3: rgb(32, 32, 32);
+    --backround-color4: rgba(255, 216, 144, 0.87);
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+.main1{
+    width: 100%;
+    height:auto;
+}
+.luxury{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.luxury a{
+    text-decoration: none;
+}
+.luxurynav{
+    width: 100%;
+    height: 10%;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.luxurynav1{
+    width: 100%;
+    height: 10%;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 20px;
+}
+.luxurynav1 a{
+    margin-right: 5%;
+}
+.luxurybox1{
+    width: 50%;
+    height: 100%;
+    background-color: var(--background-color1);
+}
+.luxurytex{
+    width: 70%;
+    height: 40%;
+    margin-left: 10%;
+}
+.luxurytex h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin: 20px 0;
+    letter-spacing: 5px;
+}
+.luxurytex p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.luxurytex button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: antiquewhite;
+    border-color: transparent;
+    background-color: rgba(22, 18, 44, 0.795);
+}
+.luxurybox2{
+    width: 50%;
+    height: 100%;
+    background-color: var(--background-color2);
+}
+.luxury11{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 3px solid rgba(128, 128, 128, 0.096);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -27%;
+    margin-right: 27%;
+    margin-bottom: 50px;
+    margin-top:  50px;
+}
+.luxuryimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid rgba(128, 128, 128, 0.096);   
+}
+.luxuryimg>img{
+    width: 300px;
+    filter: drop-shadow(5px 10px 3px gray);
+}
+.main2{
+    width: 100%;
+    height: auto;
+    background-color: var(--background-color1);
+    overflow: hidden;
+}
+.luxuryproduct{
+    width: 100%;
+    height: 100%;
+}
+.producthead{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding: 25px;
+    gap: 30%;
+}
+.producthead h1{
+    margin-left: 10%;
+}
+.productbox{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    gap: 9%;
+}
+.productbox1{
+    width: 40%;
+    height: 50%;
+    background-color: var(--box1);
+    margin: 60px;
+    box-shadow: 5px 5px 6px gray;
+    display: flex;
+    border-radius: 20px;
+}
+.productboxtex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.productboxtex i{
+    color: goldenrod;
+}
+.productbox1>img{
+    width: 300px;
+    height: 300px;
+    margin-left: -30%;
+}
+.productbox2{
+    width: 40%;
+    height: 50%;
+    background-color: var(--box2);
+    margin: 50px;
+    box-shadow: 5px 5px 6px gray;
+    display: flex;
+    border-radius: 20px;
+    padding: 8px 50px;
+}
+.productbox2>img{
+    width: 200px;
+    margin-left: -40%;
+    height: 290px;
+}
+.productbox3{
+    width: 40%;
+    height: 50%;
+    margin: 50px;
+    border-radius: 20px;
+}
+.productbox3>img{
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(-5px -5px 6px);
+}
+.main1{
+    width: 100%;
+    height: 100%;
+}
+.luxuryfeatures{
+    width: 100%;
+    height: 100%;
+}
+.featuresh1{
+    text-align: center;
+    padding: 20px;
+}
+.featuresh1 p{
+    margin: 20px;
+    color: gray;
+}
+.featuresbox{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.featbox1{
+    width: 30%;
+    height: 85%;
+}
+.featbox1>img{
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    margin: 30px;
+}
+.childfea{
+    width: 100%;
+    height: 35%;
+    text-align: right;
+}
+.childfea i,.childfea1 i{
+    font-size: 50px;
+    color: rgb(58, 56, 56);
+}
+.childfea h4,.childfea1 h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.childfea1{
+    width: 100%;
+    height: 35%;
+    text-align: left;
+}
+.childfea p,.childfea1 p{
+    color: gray;
+}
+#tttizen{
+    width: 100%;
+    height: auto;
+    background-color: var(--backround-color4);
+}
+.luxurytttizen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tttizen1{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+.tttizen1 h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.tttizen1 button{
+    padding: 10px 30px;
+    color: aliceblue;
+    background: var(--background-color3);
+    border-color: transparent;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.tttizen2 img{
+    width: 400px;
+    filter: drop-shadow(2px 7px 8px);
+    padding-top: 30px;
+    margin-bottom: -20%;
+}
+.tttizen1 img{
+    width: 500px;
+    margin-left: -30%;
+    margin-right: 35%;
+}
+#about{
+    width: 100%;
+    height: auto;
+}
+.luxuryabout{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.aboutimg{
+    width: 30%;
+    height: 30%;
+    padding: 150px;
+    background-image: url(glass.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px;
+}
+.abouttext{
+    width: 60%;
+    height: 50%;
+}
+.abouttext h2{
+    margin-bottom: 20px;
+}
+.abouttext button{
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-color: transparent;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+}
+#subscribe{
+    width: 100%;
+    height: auto;
+    background-color:  var(--backround-color4);
+    padding: 50px;
+}
+.luxuryletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.luxuryemail input{
+    padding: 10px 100px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.luxuryemail button{
+    padding: 10px 30px;
+    background-color: var(--background-color3);
+    color: antiquewhite;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+#company{
+    width: 100%;
+    height: auto;
+    background-color: var(--background-color3);
+    padding: 50px;
+}
+.luxurycomp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.companyh1{
+    width: 20%;
+    height: 20%;
+}
+.companyh1 h1{
+    color: rgba(255, 255, 255, 0.842);
+    margin-bottom: 5px;
+}
+.companyh1 p{
+    color: gray;
+}
+
+@media (max-width:500px) {
+    .luxury{
+        flex-direction: column;
+    }
+    .luxurybox1{
+        width: 100%;
+        height: 100%;
+    }
+    .luxurynav{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 10px 10px;
+        gap: 10px;
+
+    }
+    .luxurytex{
+        text-align: center;
+    }
+    .luxurytex h1{
+        font-size: 25px;
+    }
+    .luxurytex p{
+        font-size: 14px;
+    }
+    .luxurybox2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .luxurynav1{
+        display: none;
+    }
+    .luxury11{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }   
+    .luxuryimg{
+        width: 150px;
+        height: 150px;
+    }
+    .luxuryimg>img{
+        width: 140px;
+    }
+    .luxuryproduct{
+        width: 100%;
+        height: 100%;
+    }
+    .producthead{
+        font-size: 12px;
+        flex-direction: column;
+    }
+    .productbox{
+        flex-direction: column;
+    }
+    .productbox1 img{
+        width: 100px;
+        height: 100px; 
+        margin-left: -40px;
+    }
+    .productbox1{
+        width: 200px;
+        height: 100px;
+        margin-left: 100px;
+    }
+    .productbox2{
+        width: 200px;
+        height: 100px;
+        margin-left: 100px;
+    }
+    .productbox2 img{
+        width: 70px;
+        height: 100px;
+        margin-left: -80px;
+    }
+    .productbox3 img{
+        width: 200px;
+        height: 200px;
+        margin-left: 40px;
+    }
+    .luxuryfeatures{
+        width: 100%;
+        height: 100%;
+    }
+    .featuresh1{
+        margin-bottom: 10px;
+    }
+    .featuresbox{
+        width: 50%;
+        height: 80%;
+        flex-direction: column;
+        margin-left: 50px;
+        font-size: 8px;
+    }
+    .featbox1{
+        width: 350px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 40px;    
+        margin-left: 100px;
+    }
+    .featbox1 img{
+        width: 150px;
+        height: 200px;
+    }
+    .featuresbox h4{
+        font-size: 10px;
+    }
+    .featuresbox i{
+        font-size: 20px;
+    }
+    .luxuryabout{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .abouttext{
+        font-size: 14px;
+    }
+    .luxuryletter{
+        width: 100%;
+        height: 100%;
+    }
+    .luxuryemail input{
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+    .luxurycomp{
+        width: 100%;
+        height: 100%;
+        font-size: 10px;
+        margin: 5px;
+        gap: 30px;
+        margin-left: -10px;
+    }
+    .luxurycomp h4{
+        font-size: 13px;
+    }
+    .luxurytttizen{
+        width: 100%;        
+        height: 100%;
+        background-color: chocolate;
+        flex-direction: column;        
+    }
+    .tttizen2 img{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .tttizen1 h1{
+        font-size: 20px;
+    }
+    .tttizen1 button{
+        padding: 10px 20px;
+    }
+    .tttizen1 img{
+        width: 200px;
+    }
+}
